@@ -2,6 +2,10 @@ import { WebSocketServer, WebSocket } from "ws";
 
 const wss = new WebSocketServer({ port: 8080 });
 
+/**
+ * we used this sender and recieverSocker golbal variables for the
+ * CACHING purpose so we will know whos sender and whos reciever
+ */
 let senderSocket: null | WebSocket = null;
 let recieverSocket: null | WebSocket = null;
 
