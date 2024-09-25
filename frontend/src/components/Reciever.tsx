@@ -8,7 +8,12 @@ const Reciever = () => {
     };
   }, []);
 
-  return <div>Reciever</div>;
+  return (
+    <div>
+      Reciever
+      <h1>Hi</h1>
+    </div>
+  );
 };
 
 export default Reciever;
